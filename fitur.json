@@ -1,0 +1,10 @@
+[
+  {
+    "name": "ping",
+    "code": "case 'ping': { m.reply('Pong 🏓'); } break;"
+  },
+  {
+    "name": "owner",
+    "code": "case 'owner': { m.reply('Owner: ' + setting.ownerName); } break;"
+  }
+]
