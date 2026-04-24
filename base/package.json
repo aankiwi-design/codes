@@ -1,0 +1,22 @@
+{
+  "name": "bot",
+  "version": "{{VERSION}}",
+  "description": "Simple WhatsApp Bot",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "npm:vialeys",
+    "@hapi/boom": "^10.0.1",
+    "@ryuu-reinzz/haruka-lib": "^3.3.2",
+    "chalk": "^4.1.2",
+    "canvas": "^3.2.0",
+    "file-type": "^16.5.4",
+    "pino": "^9.7.0",
+    "node-os-utils": "^1.3.7",
+    "readline": "^1.3.0"
+  }
+}
+
